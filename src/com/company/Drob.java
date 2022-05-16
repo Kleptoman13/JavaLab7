@@ -45,8 +45,8 @@ public class Drob {
 
     public double StepenDrob(int stepen)
     {
-        int temp1 = (int)Math.pow(getA(), stepen);
-        int temp2 = (int)Math.pow(getB(), stepen);
+        double temp1 = Math.pow(getA(), stepen);
+        double temp2 = Math.pow(getB(), stepen);
         return temp1/temp2;
     }
 
